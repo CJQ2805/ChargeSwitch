@@ -1,10 +1,15 @@
-# STM32F4 框架  
+# 哪个大男孩不想拥有一台游戏机？
 
-STM32F429  FreeRTOS
-
-实现彩色log打印（XHSELL）
-
-TAFTS 文件系统 SD卡读写测试通过 
-
-正点原子TFT屏驱动移植
-Lvgl移植测试通过
+计划开发：移动电源 + NES模拟器
+硬件：
+       STM32F4/F7/H7
+       英集芯IP5358
+       4.3TFT电容屏
+       电源管理
+       温湿度检测
+       SD卡
+       
+软件： 
+      FreeRTOS
+      LVGL
+      FATFS
