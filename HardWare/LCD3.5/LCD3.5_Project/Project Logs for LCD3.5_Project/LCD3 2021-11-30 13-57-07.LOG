@@ -1,0 +1,211 @@
+Added Component: Designator=C1(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C2(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C3(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C4(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LCD(DB2*17-3.5)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q1(SOT-23R)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R2(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R3(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R4(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R5(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R6(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R7(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R8(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R9(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R10(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R11(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R12(0603P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TFTLCD(TFT3.5')
+Add component. Clean all parameters for all variants
+Added Component: Designator=U1(SSOP16)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=BL_CTR Pin=LCD-23
+Added Pin To Net: NetName=BL_CTR Pin=R9-1
+Added Net: Name=BL_CTR
+Added Pin To Net: NetName=BL_VDD Pin=LCD-28
+Added Pin To Net: NetName=BL_VDD Pin=R2-1
+Added Net: Name=BL_VDD
+Added Pin To Net: NetName=CLK Pin=LCD-34
+Added Net: Name=CLK
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=LCD-22
+Added Pin To Net: NetName=GND Pin=LCD-26
+Added Pin To Net: NetName=GND Pin=LCD-27
+Added Pin To Net: NetName=GND Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=R6-2
+Added Pin To Net: NetName=GND Pin=TFTLCD-1
+Added Pin To Net: NetName=GND Pin=TFTLCD-37
+Added Pin To Net: NetName=GND Pin=U1-6
+Added Pin To Net: NetName=GND Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Net: Name=GND
+Added Pin To Net: NetName=LCD_CS Pin=LCD-1
+Added Pin To Net: NetName=LCD_CS Pin=TFTLCD-4
+Added Net: Name=LCD_CS
+Added Pin To Net: NetName=LCD_D0 Pin=LCD-6
+Added Pin To Net: NetName=LCD_D0 Pin=TFTLCD-9
+Added Net: Name=LCD_D0
+Added Pin To Net: NetName=LCD_D1 Pin=LCD-7
+Added Pin To Net: NetName=LCD_D1 Pin=TFTLCD-10
+Added Net: Name=LCD_D1
+Added Pin To Net: NetName=LCD_D2 Pin=LCD-8
+Added Pin To Net: NetName=LCD_D2 Pin=TFTLCD-11
+Added Net: Name=LCD_D2
+Added Pin To Net: NetName=LCD_D3 Pin=LCD-9
+Added Pin To Net: NetName=LCD_D3 Pin=TFTLCD-12
+Added Net: Name=LCD_D3
+Added Pin To Net: NetName=LCD_D4 Pin=LCD-10
+Added Pin To Net: NetName=LCD_D4 Pin=TFTLCD-13
+Added Net: Name=LCD_D4
+Added Pin To Net: NetName=LCD_D5 Pin=LCD-11
+Added Pin To Net: NetName=LCD_D5 Pin=TFTLCD-14
+Added Net: Name=LCD_D5
+Added Pin To Net: NetName=LCD_D6 Pin=LCD-12
+Added Pin To Net: NetName=LCD_D6 Pin=TFTLCD-15
+Added Net: Name=LCD_D6
+Added Pin To Net: NetName=LCD_D7 Pin=LCD-13
+Added Pin To Net: NetName=LCD_D7 Pin=TFTLCD-16
+Added Net: Name=LCD_D7
+Added Pin To Net: NetName=LCD_D8 Pin=LCD-14
+Added Pin To Net: NetName=LCD_D8 Pin=TFTLCD-17
+Added Net: Name=LCD_D8
+Added Pin To Net: NetName=LCD_D9 Pin=LCD-15
+Added Pin To Net: NetName=LCD_D9 Pin=TFTLCD-18
+Added Net: Name=LCD_D9
+Added Pin To Net: NetName=LCD_D10 Pin=LCD-16
+Added Pin To Net: NetName=LCD_D10 Pin=TFTLCD-19
+Added Net: Name=LCD_D10
+Added Pin To Net: NetName=LCD_D11 Pin=LCD-17
+Added Pin To Net: NetName=LCD_D11 Pin=TFTLCD-20
+Added Net: Name=LCD_D11
+Added Pin To Net: NetName=LCD_D12 Pin=LCD-18
+Added Pin To Net: NetName=LCD_D12 Pin=TFTLCD-21
+Added Net: Name=LCD_D12
+Added Pin To Net: NetName=LCD_D13 Pin=LCD-19
+Added Pin To Net: NetName=LCD_D13 Pin=TFTLCD-22
+Added Net: Name=LCD_D13
+Added Pin To Net: NetName=LCD_D14 Pin=LCD-20
+Added Pin To Net: NetName=LCD_D14 Pin=TFTLCD-23
+Added Net: Name=LCD_D14
+Added Pin To Net: NetName=LCD_D15 Pin=LCD-21
+Added Pin To Net: NetName=LCD_D15 Pin=TFTLCD-24
+Added Net: Name=LCD_D15
+Added Pin To Net: NetName=LCD_RD Pin=LCD-4
+Added Pin To Net: NetName=LCD_RD Pin=TFTLCD-7
+Added Net: Name=LCD_RD
+Added Pin To Net: NetName=LCD_RS Pin=LCD-2
+Added Pin To Net: NetName=LCD_RS Pin=TFTLCD-5
+Added Net: Name=LCD_RS
+Added Pin To Net: NetName=LCD_RST Pin=LCD-5
+Added Pin To Net: NetName=LCD_RST Pin=TFTLCD-8
+Added Net: Name=LCD_RST
+Added Pin To Net: NetName=LCD_WR Pin=LCD-3
+Added Pin To Net: NetName=LCD_WR Pin=TFTLCD-6
+Added Net: Name=LCD_WR
+Added Pin To Net: NetName=LEDA Pin=R1-2
+Added Pin To Net: NetName=LEDA Pin=R2-2
+Added Pin To Net: NetName=LEDA Pin=TFTLCD-36
+Added Net: Name=LEDA
+Added Pin To Net: NetName=LEDK1 Pin=R4-2
+Added Pin To Net: NetName=LEDK1 Pin=TFTLCD-30
+Added Net: Name=LEDK1
+Added Pin To Net: NetName=LEDK2 Pin=R5-2
+Added Pin To Net: NetName=LEDK2 Pin=TFTLCD-31
+Added Net: Name=LEDK2
+Added Pin To Net: NetName=LEDK3 Pin=R7-2
+Added Pin To Net: NetName=LEDK3 Pin=TFTLCD-32
+Added Net: Name=LEDK3
+Added Pin To Net: NetName=LEDK4 Pin=R8-2
+Added Pin To Net: NetName=LEDK4 Pin=TFTLCD-33
+Added Net: Name=LEDK4
+Added Pin To Net: NetName=LEDK5 Pin=R10-2
+Added Pin To Net: NetName=LEDK5 Pin=TFTLCD-34
+Added Net: Name=LEDK5
+Added Pin To Net: NetName=LEDK6 Pin=R12-2
+Added Pin To Net: NetName=LEDK6 Pin=TFTLCD-35
+Added Net: Name=LEDK6
+Added Pin To Net: NetName=MOSI Pin=LCD-30
+Added Net: Name=MOSI
+Added Pin To Net: NetName=MO Pin=LCD-32
+Added Net: Name=MO
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_2 Pin=R6-1
+Added Pin To Net: NetName=NetQ1_2 Pin=R9-2
+Added Net: Name=NetQ1_2
+Added Pin To Net: NetName=NetQ1_3 Pin=Q1-3
+Added Pin To Net: NetName=NetQ1_3 Pin=R4-1
+Added Pin To Net: NetName=NetQ1_3 Pin=R5-1
+Added Pin To Net: NetName=NetQ1_3 Pin=R7-1
+Added Pin To Net: NetName=NetQ1_3 Pin=R8-1
+Added Pin To Net: NetName=NetQ1_3 Pin=R10-1
+Added Pin To Net: NetName=NetQ1_3 Pin=R12-1
+Added Net: Name=NetQ1_3
+Added Pin To Net: NetName=T_BUSY Pin=U1-13
+Added Net: Name=T_BUSY
+Added Pin To Net: NetName=T_CLK Pin=U1-16
+Added Net: Name=T_CLK
+Added Pin To Net: NetName=T_CS Pin=LCD-33
+Added Pin To Net: NetName=T_CS Pin=U1-15
+Added Net: Name=T_CS
+Added Pin To Net: NetName=T_MISO Pin=LCD-29
+Added Pin To Net: NetName=T_MISO Pin=U1-12
+Added Net: Name=T_MISO
+Added Pin To Net: NetName=T_MOSI Pin=U1-14
+Added Net: Name=T_MOSI
+Added Pin To Net: NetName=T_PEN Pin=LCD-31
+Added Pin To Net: NetName=T_PEN Pin=R11-1
+Added Pin To Net: NetName=T_PEN Pin=U1-11
+Added Net: Name=T_PEN
+Added Pin To Net: NetName=TVDD Pin=C2-2
+Added Pin To Net: NetName=TVDD Pin=C3-2
+Added Pin To Net: NetName=TVDD Pin=C4-2
+Added Pin To Net: NetName=TVDD Pin=R3-2
+Added Pin To Net: NetName=TVDD Pin=R11-2
+Added Pin To Net: NetName=TVDD Pin=U1-1
+Added Pin To Net: NetName=TVDD Pin=U1-9
+Added Pin To Net: NetName=TVDD Pin=U1-10
+Added Net: Name=TVDD
+Added Pin To Net: NetName=VCC3.3 Pin=C1-2
+Added Pin To Net: NetName=VCC3.3 Pin=LCD-24
+Added Pin To Net: NetName=VCC3.3 Pin=LCD-25
+Added Pin To Net: NetName=VCC3.3 Pin=R1-1
+Added Pin To Net: NetName=VCC3.3 Pin=R3-1
+Added Pin To Net: NetName=VCC3.3 Pin=TFTLCD-2
+Added Pin To Net: NetName=VCC3.3 Pin=TFTLCD-3
+Added Net: Name=VCC3.3
+Added Pin To Net: NetName=X+ Pin=TFTLCD-29
+Added Pin To Net: NetName=X+ Pin=U1-2
+Added Net: Name=X+
+Added Pin To Net: NetName=X- Pin=TFTLCD-27
+Added Pin To Net: NetName=X- Pin=U1-4
+Added Net: Name=X-
+Added Pin To Net: NetName=Y+ Pin=TFTLCD-28
+Added Pin To Net: NetName=Y+ Pin=U1-3
+Added Net: Name=Y+
+Added Pin To Net: NetName=Y- Pin=TFTLCD-26
+Added Pin To Net: NetName=Y- Pin=U1-5
+Added Net: Name=Y-
+Added Class: Name=LCD3.5
+Added Room: Name=LCD3.5
