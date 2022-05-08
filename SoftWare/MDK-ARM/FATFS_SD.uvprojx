@@ -1362,6 +1362,11 @@
               <FileType>1</FileType>
               <FilePath>..\Src\middle\GUI\lvgl\src\lv_widgets\lv_win.c</FilePath>
             </File>
+            <File>
+              <FileName>my_font_icon_num60.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\module\gui\APP_font\my_font_icon_num60.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

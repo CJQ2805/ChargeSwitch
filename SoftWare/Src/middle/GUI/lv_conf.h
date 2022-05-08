@@ -21,7 +21,7 @@
 
 /* Maximal horizontal and vertical resolution to support by the library.*/
 #define LV_HOR_RES_MAX          (480)
-#define LV_VER_RES_MAX          (600)
+#define LV_VER_RES_MAX          (800)
 
 /* Color depth:
  * - 1:  1 byte per pixel
@@ -398,7 +398,7 @@ typedef void * lv_indev_drv_user_data_t;            /*Type of user data in the i
 #define LV_FONT_MONTSERRAT_42    0
 #define LV_FONT_MONTSERRAT_44    0
 #define LV_FONT_MONTSERRAT_46    0
-#define LV_FONT_MONTSERRAT_48    0
+#define LV_FONT_MONTSERRAT_48    1
 
 /* Demonstrate special features */
 #define LV_FONT_MONTSERRAT_12_SUBPX      0

@@ -175,6 +175,7 @@ lv_obj_t* label_data;
 lv_obj_t* label_week;
 lv_obj_t* label_time;  //时间标签
 
+//满屏幕是 800*480
 void app_digital_clock_create(void)
 {
 	scr = lv_scr_act();  //获取屏幕对象
@@ -186,26 +187,26 @@ void app_digital_clock_create(void)
         /***********************创建上半屏幕控件****************************/
 	pt_upscr_cont = lv_cont_create(scr, NULL);															  //创建时间容器
 	lv_obj_set_pos(pt_upscr_cont, 0, 0);																  //设置容器位置
-	lv_obj_set_size(pt_upscr_cont, 135, 120);															  //设置容器尺寸
+	lv_obj_set_size(pt_upscr_cont, 800, 320);															  //设置容器尺寸
 	lv_obj_set_style_local_bg_opa(pt_upscr_cont, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, LV_OPA_100);	  //设置背景透明
 	lv_obj_set_style_local_border_opa(pt_upscr_cont, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, LV_OPA_100); //设置边框透明
 	lv_cont_set_layout(pt_upscr_cont, LV_LAYOUT_COLUMN_MID);												  //设置容器的布局方式: 开启自动布局
 	lv_obj_set_style_local_pad_inner(pt_upscr_cont, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, 0);			  //设置子对象之间的间距
 	/***********************创建上半屏幕控件****************************/
 
-//	    /***********************创建时间控件****************************/
-//        time_cont = lv_cont_create(pt_upscr_cont, NULL);													  //创建时间容器
-//        lv_obj_set_pos(time_cont, 0, 30);																  //设置容器位置
-//        lv_obj_set_size(time_cont, 135, 30);															  //设置容器尺寸
-//        lv_obj_set_style_local_bg_opa(time_cont, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, LV_OPA_TRANSP);	  //设置背景透明
-//        lv_obj_set_style_local_border_opa(time_cont, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, LV_OPA_TRANSP); //设置边框透明
-//        lv_cont_set_layout(time_cont, LV_LAYOUT_ROW_MID);												  //设置容器的布局方式: 开启自动布局
-//        lv_obj_set_style_local_pad_inner(time_cont, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, 0);			  //设置子对象之间的间距
+	/***********************创建时间控件****************************/
+	time_cont = lv_cont_create(pt_upscr_cont, NULL);													  //创建时间容器
+	lv_obj_set_pos(time_cont, 0, 0);																  //设置容器位置
+	lv_obj_set_size(time_cont, 200, 200);															  //设置容器尺寸
+	lv_obj_set_style_local_bg_opa(time_cont, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, LV_OPA_100);	  //设置背景透明
+	lv_obj_set_style_local_border_opa(time_cont, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, LV_OPA_100); //设置边框透明
+	lv_cont_set_layout(time_cont, LV_LAYOUT_ROW_MID);												  //设置容器的布局方式: 开启自动布局
+	lv_obj_set_style_local_pad_inner(time_cont, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, 0);			  //设置子对象之间的间距
 
-//        label_time = lv_label_create(time_cont, NULL); 
-//        lv_obj_align(label_time, time_cont, LV_ALIGN_IN_BOTTOM_LEFT, 0, 0);
-//        lv_obj_set_style_local_text_font(label_time, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, &my_font_icon_num60); //设置字体
-//        lv_obj_set_style_local_text_color(label_time, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, LV_COLOR_RED);		  //设置颜色
+	label_time = lv_label_create(time_cont, NULL); 
+	lv_obj_align(label_time, time_cont, LV_ALIGN_IN_BOTTOM_LEFT, 0, 0);
+    lv_obj_set_style_local_text_font(label_time, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, &lv_font_montserrat_14); //设置字体
+	lv_obj_set_style_local_text_color(label_time, LV_OBJ_PART_MAIN, LV_STATE_DEFAULT, LV_COLOR_RED);		  //设置颜色
 //	/***********************创建时间控件****************************/
 //	
 //	

@@ -181,6 +181,7 @@
 "fatfs_sd\lv_textarea.o"
 "fatfs_sd\lv_tileview.o"
 "fatfs_sd\lv_win.o"
+"fatfs_sd\my_font_icon_num60.o"
 "fatfs_sd\heart.o"
 --library_type=microlib --strict --scatter "FATFS_SD\FATFS_SD.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
